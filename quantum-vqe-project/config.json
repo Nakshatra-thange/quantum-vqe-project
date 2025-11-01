@@ -1,0 +1,21 @@
+{
+  "project_name": "VQE Materials Hamiltonians",
+  "version": "0.1.0",
+  "target_systems": [
+    "H2",
+    "H4",
+    "Hubbard"
+  ],
+  "default_basis": "sto-3g",
+  "default_shots": 1024,
+  "simulators": [
+    "statevector",
+    "qasm"
+  ],
+  "optimizers": [
+    "COBYLA",
+    "SLSQP",
+    "SPSA"
+  ],
+  "day1_completed": true
+}

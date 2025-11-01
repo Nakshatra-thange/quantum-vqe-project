@@ -1,0 +1,17 @@
+# Core quantum computing packages
+qiskit==1.0.0
+qiskit-nature==0.7.2
+qiskit-aer==0.13.3
+pyscf==2.5.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Optional: Jupyter support
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Optional: Real hardware access
+# qiskit-ibm-runtime>=0.15.0
